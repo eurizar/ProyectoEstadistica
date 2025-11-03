@@ -1,0 +1,22 @@
+# Comandos para subir el proyecto a GitHub
+# Ejecuta estos comandos EN ORDEN desde PowerShell
+
+# 1. Inicializar Git
+git init
+
+# 2. Agregar todos los archivos
+git add .
+
+# 3. Hacer el primer commit
+git commit -m "🚀 Versión inicial: Analizador Estadístico completo con ejecutable"
+
+# 4. Conectar con GitHub (tu repositorio)
+git remote add origin https://github.com/eurizar/ProyectoEstadistica.git
+
+# 5. Renombrar rama a main
+git branch -M main
+
+# 6. Subir a GitHub
+git push -u origin main
+
+# ¡Listo! Tu código estará en: https://github.com/eurizar/ProyectoEstadistica

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist-python/
+build-python/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# PyInstaller
+build/
+*.spec
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
+*.log
+*.tmp
+*.lnk
+
+# Scripts de configuración personal (opcional - puedes comentar si quieres subirlo)
+# subir_a_github.ps1
+
+# Keep dist folder for releases
+!dist/
+!dist/AnalizadorEstadistico.exe
